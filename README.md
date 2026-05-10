@@ -20,7 +20,7 @@ Inventory Management System | OOP-Based Design | JDBC Connectivity
 | Name | CMS/ID | Section |
 |------|--------|--------|
 | Gaitry Ahuja | 023-25-0524 | B |
-| Abeer Fatima | 023-25-XXXX | B |
+| Abeer Fatima | 023-25-0199 | B |
 
 ---
 
@@ -32,7 +32,7 @@ Inventory Management System | OOP-Based Design | JDBC Connectivity
 
 ## 🌐 GitHub Repository
 
-👉 Paste GitHub Repository Link Here
+https://github.com/gaitryahuja/-BookInventorySystem.git
 
 ---
 
