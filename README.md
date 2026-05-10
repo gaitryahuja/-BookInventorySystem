@@ -1,6 +1,5 @@
 # 📚 BookInventorySystem
 ## 📌 Short Description
-
 The Inventory Bookshop Management System is a Java-based desktop application developed using JDK 25. The system helps manage a bookshop’s daily operations including books, customers, suppliers, purchases, and sales. It provides two user roles: Owner and Manager. The Owner has full access to all system functionalities, while the Manager has limited access mainly for sales and viewing records.
 
 ---
@@ -120,7 +119,7 @@ BookInventorySystem_SectionB_Group2_GaitryAhuja/
 ---
 
 ## ⚙️ Setup Instructions
-## 📦 How to Unzip and Run the Project
+### 📦 How to Unzip and Run the Project
 To unzip the project, download the ZIP file and extract it using “Extract All…” or WinRAR/7-Zip into a proper folder (such as Desktop or a project directory). After extraction, open the folder and ensure all files are correctly placed. Make sure to set the proper file path in your IDE or terminal; otherwise, the program will not work correctly. Always run the project from the extracted folder, not directly from the ZIP file.
 
 ### 1. Prerequisites
@@ -149,6 +148,24 @@ This will create all required tables for:
 - Sales
 - Purchases
 
+---
+## 🔑 Login Information
+
+⚠️ Before running the program, it is compulsory to first create the database and import the required SQL file. The application will not work properly without database setup.
+
+After completing the database setup, run the program using the given compile and run instructions.
+
+### Default Login Credentials
+
+| Role | Password |
+|------|-----------|
+| Owner | `123` |
+| Manager | `456` |
+
+- Enter password `123` to access the Owner panel with full system access.
+- Enter password `456` to access the Manager panel with limited access.
+- If your MySQL database has a password set, enter your own database password in the `DBConnection.java` file.
+- If your MySQL setup does not have any password, leave the password field empty.
 ---
 
 ### 3. Configure Database Connection
