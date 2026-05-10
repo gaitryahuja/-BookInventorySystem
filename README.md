@@ -4,9 +4,10 @@ The Inventory Bookshop Management System is a Java-based desktop application dev
 
 ---
 
-## 🎯 Purpose of Project
 
+## 🎯 Purpose of Project
 The purpose of this project is to automate and simplify bookshop management by maintaining organized records of inventory, customers, suppliers, purchases, and sales. The system reduces manual work, improves efficiency, and demonstrates the implementation of Object-Oriented Programming concepts.
+
 ---
 
 **Java + MySQL Desktop Application**  
