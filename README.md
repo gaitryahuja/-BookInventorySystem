@@ -1,11 +1,11 @@
-# 📚 BookInventorySystem
-## 📌 Short Description
+#  BookInventorySystem
+##  Short Description
 The Inventory BookShop Management System is a Java program that runs on the desktop.The software manages the activies within a bookshop, such as books, clients, vendors, purchases and sales.There are two users in the system: the Owner and the Manager. The Owner can perform all task in the system, whereas the Manager perfroms tasks related to sales only.
 
 ---
 
 
-## 🎯 Purpose of Project
+##  Purpose of Project
 The objectives of the project are to simplfy the management of the book shop through organized inventory, customer, supplier, purchasing and sales records. This simplifies the management porcess and also shows how Object Oreinted Programming principles can be applied.
 
 ---
@@ -15,7 +15,7 @@ Inventory Management System | OOP-Based Design | JDBC Connectivity
 
 ---
 
-## 👥 Group Members
+##  Group Members
 
 | Name | CMS/ID | Section |
 |------|--------|--------|
@@ -24,21 +24,21 @@ Inventory Management System | OOP-Based Design | JDBC Connectivity
 
 ---
 
-## 🎥 Demo Video
+##  Demo Video
 
 https://youtu.be/cgbPWaZdBJc?si=mFCQqKJ3tOSXrDlO
 
 ---
 
-## 🌐 GitHub Repository
+##  GitHub Repository
 
 https://github.com/gaitryahuja/-BookInventorySystem.git
 
 ---
 
-## ⚙️ Main Functionalities
+##  Main Functionalities
 
-### 👑 Owner Interface (Full Access)
+###  Owner Interface (Full Access)
 - Add / Update / Delete Books
 - Manage Customers
 - Manage Suppliers
@@ -46,7 +46,7 @@ https://github.com/gaitryahuja/-BookInventorySystem.git
 - View Purchase History
 - Full system management access
 
-### 👨‍💼 Manager Interface (Limited Access)
+###  Manager Interface (Limited Access)
 - Create New Sales
 - View Books
 - View Customers
@@ -55,7 +55,7 @@ https://github.com/gaitryahuja/-BookInventorySystem.git
 
 ---
 
-## 🧠 OOP Concepts Used
+## OOP Concepts Used
 
 - Classes & Objects
 - Encapsulation
@@ -68,7 +68,7 @@ https://github.com/gaitryahuja/-BookInventorySystem.git
 
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 
 | Component | Technology |
 |-----------|-----------|
@@ -80,7 +80,7 @@ https://github.com/gaitryahuja/-BookInventorySystem.git
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 BookInventorySystem_SectionB_Group2_GaitryAhuja/
@@ -119,8 +119,8 @@ BookInventorySystem_SectionB_Group2_GaitryAhuja/
 
 ---
 
-## ⚙️ Setup Instructions
-### 📦 How to Unzip and Run the Project
+##  Setup Instructions
+###  How to Unzip and Run the Project
 To unzip the project, download the ZIP file and extract it using “Extract All…” or WinRAR/7-Zip into a proper folder (such as Desktop or a project directory). After extraction, open the folder and ensure all files are correctly placed. Make sure to set the proper file path in your IDE or terminal; otherwise, the program will not work correctly. Always run the project from the extracted folder, not directly from the ZIP file.
 
 ### 1. Prerequisites
@@ -150,9 +150,9 @@ This will create all required tables for:
 - Purchases
 
 ---
-## 🔑 Login Information
+##  Login Information
 
-⚠️ Before running the program, it is compulsory to first create the database and import the required SQL file. The application will not work properly without database setup.
+ Before running the program, it is compulsory to first create the database and import the required SQL file. The application will not work properly without database setup.
 
 After completing the database setup, run the program using the given compile and run instructions.
 
@@ -207,7 +207,7 @@ java -cp ".;bin;lib/mysql.jar" Main
 ```
 
 ---
-### 🍎 Mac / Linux Setup
+###  Mac / Linux Setup
 
 For Mac or Linux users, follow these commands:
 
@@ -223,8 +223,8 @@ javac -cp ".:lib/mysql.jar" -d bin src/model/*.java src/service/*.java src/Main.
 java -cp ".:bin:lib/mysql.jar" Main
 ```
 ---
-💡 Note: On Mac/Linux, use : instead of ; in classpath paths. Also ensure MySQL is running and database connection is properly configured before running the project.
-### 📌 Important Notes
+ Note: On Mac/Linux, use : instead of ; in classpath paths. Also ensure MySQL is running and database connection is properly configured before running the project.
+###  Important Notes
 
 - Ensure MySQL server is running before execution
 - `mysql.jar` must exist inside the `lib` folder
@@ -233,7 +233,7 @@ java -cp ".:bin:lib/mysql.jar" Main
 
 ---
 
-## 📋 Application Flow
+##  Application Flow
 
 ```text
 Main Menu
@@ -278,7 +278,7 @@ Main Menu
 
 ---
 
-## 🗄️ Database Schema (3NF)
+##  Database Schema (3NF)
 
 ```text
 bookshop_db
@@ -320,7 +320,7 @@ bookshop_db
     └── purchase_date
 ```
 
-### 📌 Relationships
+###  Relationships
 
 - One book can appear in multiple sales and purchases
 - One customer can make multiple purchases/sales
@@ -329,7 +329,7 @@ bookshop_db
 
 ---
 
-## ⚙️ Functionalities Implemented
+##  Functionalities Implemented
 
 ### 1. Book Management
 
@@ -409,7 +409,7 @@ Manages book purchases from suppliers by:
 
 ---
 
-## 🔒 Data Integrity & Validation
+##  Data Integrity & Validation
 
 ### 1. Foreign Key Constraints
 
