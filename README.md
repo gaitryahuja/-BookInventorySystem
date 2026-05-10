@@ -1,12 +1,12 @@
 # 📚 BookInventorySystem
 ## 📌 Short Description
-The Inventory Bookshop Management System is a Java-based desktop application developed using JDK 25. The system helps manage a bookshop’s daily operations including books, customers, suppliers, purchases, and sales. It provides two user roles: Owner and Manager. The Owner has full access to all system functionalities, while the Manager has limited access mainly for sales and viewing records.
+The Inventory BookShop Management System is a Java program that runs on the desktop.The software manages the activies within a bookshop, such as books, clients, vendors, purchases and sales.There are two users in the system: the Owner and the Manager. The Owner can perform all task in the system, whereas the Manager perfroms tasks related to sales only.
 
 ---
 
 
 ## 🎯 Purpose of Project
-The purpose of this project is to automate and simplify bookshop management by maintaining organized records of inventory, customers, suppliers, purchases, and sales. The system reduces manual work, improves efficiency, and demonstrates the implementation of Object-Oriented Programming concepts.
+The objectives of the project are to simplfy the management of the book shop through organized inventory, customer, supplier, purchasing and sales records. This simplifies the management porcess and also shows how Object Oreinted Programming principles can be applied.
 
 ---
 
@@ -26,7 +26,7 @@ Inventory Management System | OOP-Based Design | JDBC Connectivity
 
 ## 🎥 Demo Video
 
-👉 Paste YouTube Video Link Here
+https://youtu.be/cgbPWaZdBJc?si=mFCQqKJ3tOSXrDlO
 
 ---
 
