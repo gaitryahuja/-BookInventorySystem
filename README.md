@@ -62,7 +62,6 @@ https://github.com/gaitryahuja/-BookInventorySystem.git
 - Inheritance
 - Polymorphism
 - Exception Handling
-- Collections
 - JDBC Database Connectivity
 - Layered Service-Based Design
 
